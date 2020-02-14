@@ -15,6 +15,11 @@ public class HomeController {
         return "About";
     }
 
+    @RequestMapping("/Author")
+    public String author() {
+        return "Author";
+    }
+
     @RequestMapping("/ForLoops")
     public String blog() {
         return "ForLoops";
@@ -23,6 +28,26 @@ public class HomeController {
     @RequestMapping("/FizzBuzz")
     public String fizzBuzz() {
         return "FizzBuzz";
+    }
+
+    @RequestMapping("/Composition")
+    public String composition() {
+        return "Composition";
+    }
+
+    @RequestMapping("/Inheritance")
+    public String inheritance() {
+        return "Inheritance";
+    }
+
+    @RequestMapping("/Bootstrap")
+    public String bootStrap() {
+        return "Bootstrap";
+    }
+
+    @RequestMapping("/CSS")
+    public String CSS() {
+        return "CSS";
     }
 }
 
