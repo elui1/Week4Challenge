@@ -1,7 +1,3 @@
-/*.dropdown:hover>.dropdown-menu {*/
-/*    display: block;*/
-/*}*/
-
 .navbar {
     background-color: black;
     /*padding-left: 0;*/
@@ -16,15 +12,6 @@
 .navbar .nav-item:hover .nav-link {
     background-color: gray;
 }
-/*.navbar .dropdown-item {*/
-/*    color: white;*/
-/*}*/
-
-
-/*.navbar-nav > li{*/
-/*    padding-left:30px;*/
-/*    padding-right:110px;*/
-/*}*/
 
 .card-title {
     text-align: center;
@@ -37,46 +24,64 @@
 }
 .card-body {
     /*height: 300px;*/
-    width: 250px;
+    width: 270px;
     margin: 0 auto;
 }
 
 .card-text {
     text-align: center;
 }
-/*.logo {*/
-/*    height: 20px;*/
-/*    width: 20px;*/
-/*}*/
 
-/*.preview {*/
-/*    float: left;*/
-/*}*/
-/*.blog {*/
-/*    float: left;*/
-/*}*/
 .well {
-    /*min-height: 20px;*/
-    /*padding: 19px;*/
-    /*margin-bottom: 20px;*/
-    /*background-color: #f5f5f5;*/
-    /*border: 1px solid #e3e3e3;*/
-    /*border-radius: 4px;*/
-    /*-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);*/
-    /*!*box-shadow: inset 2px 2px 1px rgba(0,0,0,.05);*!*/
-    /*box-shadow: inset 0 1px 1px rgba(0,0,0,.05);*/
     height: 100px;
-    width: 900px;
-    background: lightcyan; /*rgba(0, 0, 0, 0.2);*/
+    width: 1000px;
+    background: lightcyan;
     border-radius: 10px;
     box-shadow: inset 0 0 10px black, 0 0 10px black;
     padding: 5px;
     display: inline-block;
-    /*margin: 10px;*/
-    /*margin-left: 100px;*/
     margin-top: 20px;
     vertical-align: top;
-    /*text-align: center;*/
     font-weight: bold;
-    /*color: white;*/
+}
+
+.pictures {
+    display: flex;
+    justify-content: center;
+}
+
+
+.columnphoto {
+    float: left;
+    width: 30%;
+    padding: 15px;
+}
+
+#man {
+    height: 320px;
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+#code {
+    height: 320px;
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+#pizza {
+    height: 320px;
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.caption {
+    text-align: center;
+    /*border:1px solid #ccc;*/
+    /*border-width:1px 0;*/
+    /*background-color: #333;*/
+    background-color: #333;
+    color: white;
 }
